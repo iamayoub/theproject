@@ -1,0 +1,159 @@
+body {
+    background-color:#f8f8f8;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #212121;
+}
+header{
+    display: flex;
+    margin: 1px;
+    padding: 1px;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.navigation-title  {
+    font-size: 60px;
+    margin: 1px;
+    padding: 1px;
+}
+header nav {
+    padding: 1px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #212121;
+    justify-content: space-around;
+}
+a {
+    color: #212121;
+}
+.about-hello {
+    font-size: 60px;
+    padding: 1px;
+}
+.about-ayoub {
+    font-size: 80px;
+    padding: 1px;
+}
+.ayoub-text  {
+    text-shadow: 7px 7px  #212121; 
+    color:#f8f8f8;background-color: #212121; 
+    border-radius:5px;      
+}
+
+.about-job {
+    font-size: 60px;
+    padding: 1px;
+}
+.about-experience {
+    font-size: 20px;
+}
+.about-image {
+    padding-left: 25px; ;
+}
+.about {
+    margin: 0px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    }
+.scroll {
+    margin: 1px;
+    padding: 1px;
+    text-align: center;}
+.button input{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #f8f8f8;
+}
+.services-title{
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.services-title h1{
+    margin: 1px;
+    padding: 10px;
+    padding-bottom: 45px;
+    font-size: 70px;
+}
+.services-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 450px 450px 450px ;
+    grid-gap: 200px;
+}
+.services-grid h4 {
+    font-size: 32px;
+}
+.services-grid p {
+    font-size: 30px;
+}
+.uxuidesign{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    border-style:solid;
+}
+.functionalwebsites {
+    padding: 18px;
+    text-align: center;
+    border: 5px;
+    border-radius: 15px;
+    border-style:solid;
+}
+.specialfeatures {
+    padding: 18px;
+    text-align: center;
+    border: 5px;
+    border-style:solid;
+    border-radius: 15px;
+}
+.skills-title {
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    padding: 1px;
+}
+.separate {
+    align-items: center;
+    text-align: center;
+}
+.real-skills {
+    padding: 1px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.soft-skills {
+    padding: 1px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.experience-title {
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+}
+.experience {
+    padding: 50px;
+}
+.second-side {
+    padding: 40px;
+    border-radius: 5px;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 950px 800px ;
+    align-items: center;}
+.contact-second {
+    grid-template-columns:400px 400px ;
+    display: grid;
+    grid-gap: 60px;
+}
+.rights {
+    padding-top: 2px;
+    align-items: center;
+    text-align: center;
+}
